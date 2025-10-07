@@ -1,0 +1,35 @@
+/* External CSS File - style.css */
+
+/* Card Hover Effect */
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+/* Add gradient hover on buttons */
+a.btn:hover {
+  background: linear-gradient(135deg, #007bff, #00c6ff);
+  color: #fff !important;
+  border: none;
+}
+
+/* Smooth section transitions */
+section {
+  transition: background-color 0.3s ease;
+}
+
+/* Footer text size */
+footer p {
+  font-size: 15px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  header {
+    padding: 50px 0;
+  }
+  section {
+    padding: 50px 0;
+  }
+}
