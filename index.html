@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h2 id="title">Student Registration Form</h2>
+        <form id="registrationForm">
+            <label>Username:</label>
+            <input type="text" id="username" placeholder="Enter your username">
+            <span class="error" id="usernameError"></span><br>
+
+            <label>Email:</label>
+            <input type="text" id="email" placeholder="Enter your email">
+            <span class="error" id="emailError"></span><br>
+
+            <label>Phone Number:</label>
+            <input type="text" id="phone" placeholder="Enter your phone number">
+            <span class="error" id="phoneError"></span><br>
+
+            <label>Password:</label>
+            <input type="password" id="password" placeholder="Enter password">
+            <span class="error" id="passwordError"></span><br>
+
+            <label>Confirm Password:</label>
+            <input type="password" id="confirmPassword" placeholder="Confirm password">
+            <span class="error" id="confirmPasswordError"></span><br>
+
+            <button type="submit" id="submitBtn">Register</button>
+        </form>
+
+        <label for="uploadImage">Choose an image:</label>
+        <input type="file" id="uploadImage" accept="image/*"><br>
+        <img id="sampleImage" src="https://via.placeholder.com/150" alt="Sample Image">
+
+        <div id="dynamicText"></div>
+    </div>
+</body>
+</html>
